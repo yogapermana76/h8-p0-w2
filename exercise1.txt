@@ -1,0 +1,41 @@
+1. NEW SECOND LAW
+-----------------
+STORE "gaya" without any value
+STORE "massa" with 600
+STORE "percepatan" with 2
+
+CALCULATE "massa" times "percepatan
+SET "gaya" value with calculation result
+
+DISPLAY "gaya"
+
+2. TAHUN KABISAT
+----------------
+STORE "tahun" with any value
+
+IF ("tahun" mod 4 = 0 ("tahun" mod 100 != 0) OR ("tahun" mod 100 = 0 AND tahun mod 400 = 0))
+    DISPLAY "ini merupakan tahun kabisat"
+ELSE 
+    DISPLAY "ini bukan tahun kabisat"
+
+3. LAUNDRY DAY
+---------------
+STORE "shirt" with 0
+
+WHILE "shirt" < 20
+    DISPLAY "shirt"
+    ADD "shirt" by 1
+
+DISPLAY "semua pakaian foxie sudah masuk ke mesin cuci"
+
+4. PERIKSA KUKU
+---------------
+STORE "kuku" with 1
+
+WHILE "kuku" <= 40
+    IF "kuku" mod 2 = 0
+        DISPLAY "kuku pendek"
+    ELSE 
+        DISPLAY "kuku panjang"
+
+    ADD "kuku" with 1
