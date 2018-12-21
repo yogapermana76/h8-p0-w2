@@ -43,7 +43,7 @@ Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tah
 ----------------
 STORE "tahun" with any value
 
-IF ("tahun" mod 4 = 0 ("tahun" mod 100 != 0) OR ("tahun" mod 100 = 0 AND tahun mod 400 = 0))
+IF "tahun" mod 4 = 0 "tahun" mod 100 equals not 0 OR "tahun" mod 100 equals 0 AND tahun mod 400 equals 0
     DISPLAY "ini merupakan tahun kabisat"
 ELSE 
     DISPLAY "ini bukan tahun kabisat"
@@ -80,12 +80,12 @@ Buatlah algoritma & pseudocode untuk permasalahan diatas.
 ---------------
 STORE "kuku" with 1
 
-WHILE "kuku" <= 40
-    IF "kuku" mod 2 = 0
+WHILE "kuku" less equals than 40
+    IF "kuku" mod 2 equals 0
         DISPLAY "'kuku' pendek"
         DO "guru memuji siwa/siswi"
     ELSE 
-        DISPLAY "'kuku; panjang"
+        DISPLAY "'kuku' panjang"
         DO "guru menghukum siswa/siswi"
     END IF
 
