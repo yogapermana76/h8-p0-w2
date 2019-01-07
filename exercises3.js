@@ -46,10 +46,10 @@ Output
 */
 
 
-var nama = 'yoga';
-var peran = 'Tabib';
+var nama = '';
+var peran = '';
 
-if(nama === '' && peran === '') {
+if(nama === '') {
     console.log('Nama harus diisi!');
 } else if(peran === '') {
     console.log('Hallo ' + nama + ', Pilih peranmu untuk memulai game!');

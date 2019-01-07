@@ -43,7 +43,7 @@ Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tah
 ----------------
 STORE "tahun" with any value
 
-IF "tahun" mod 4 = 0 "tahun" mod 100 equals not 0 OR "tahun" mod 100 equals 0 AND tahun mod 400 equals 0
+IF "tahun" mod 4 equals 0 "tahun" mod 100 equals not 0 OR "tahun" mod 100 equals 0 AND tahun mod 400 equals 0
     DISPLAY "ini merupakan tahun kabisat"
 ELSE 
     DISPLAY "ini bukan tahun kabisat"
@@ -61,7 +61,7 @@ Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuc
 ---------------
 STORE "shirt" with 0
 
-WHILE "shirt" < 20
+WHILE "shirt" less than 20
     DISPLAY "'shirt' pakaian"
     ADD "shirt" by 1
 END WHILE
